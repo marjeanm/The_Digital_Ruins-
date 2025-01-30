@@ -1,0 +1,19 @@
+site_name: The_Digital_Ruins 
+nav:
+  - Home: index.md
+  - About: about.md
+  - Blog: 
+    - Blog/privacy_analysis.md
+    - Blog/Accountability.md
+    - Blog/Social_Engineering.md  
+  - Cyber_Tips: 
+    - Cyber_Tips/Malware.md
+    - Cyber_Tips/Phishing.md
+    - Cyber_Tips/MFA.md
+    - Cyber_Tips/safe_tips.md
+theme:
+  name: material
+  features:
+    - navigation.tabs
+repo_url: https://github.com/marjeanm
+repo_name: GitHub
