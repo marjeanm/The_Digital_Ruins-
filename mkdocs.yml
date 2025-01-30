@@ -17,3 +17,6 @@ theme:
     - navigation.tabs
 repo_url: https://github.com/marjeanm
 repo_name: GitHub
+
+plugins:
+  - mkdocs-git-revision-date-localized-plugin
