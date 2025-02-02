@@ -36,9 +36,9 @@ An attacker exploiting broken access controls might gain access to a web server 
 
 #### **Prefer Attribute-Based and Relationship-Based Access Control Over RBAC**
 
-- **Role-Based Access Control (RBAC)** assigns permissions based on roles, but it can become unwieldy when users hold multiple roles. 
+- **Role-Based Access Control (RBAC)** assigns permissions based on roles, but it can become unwieldy when users hold multiple roles.
 
-- **Attribute-Based Access Control (ABAC)** simplifies management by assigning permissions based on predefined attributes (e.g., job function or department). 
+- **Attribute-Based Access Control (ABAC)** simplifies management by assigning permissions based on predefined attributes (e.g., job function or department).
 
 - ABAC enables automated enforcement of policies and makes it easier to manage group memberships and revoke permissions as needed. *(OWASP Top 10: 2021, 2021)*  
 
@@ -51,22 +51,22 @@ An attacker exploiting broken access controls might gain access to a web server 
 - **Total Resulting Occurrences:** 132,195  
 - **Common Vulnerabilities Identified:** 3,897  
 
-### **Description of the Risk**
+## Description of the Risk
 
 This risk arises when an application fails to implement robust identity, authentication, and session management protocols. Without proper authentication policies, attackers can execute automated attacks to guess username/password combinations, commonly known as brute-force attacks.
 
-### **Example**
+## Example
 
 An application lacking a lockout policy or multi-factor authentication (MFA) becomes vulnerable to brute-force attacks using tools like **Hashcat** or **John the Ripper**. Once attackers gain access, they can impersonate legitimate users and potentially steal sensitive data.
 
-### **Proactive Controls**
+## Proactive Controls
 
-#### **Multi-Factor Authentication (MFA)**
+## **Multi-Factor Authentication (MFA)**
 
 - Enforce MFA to add an additional layer of security.  
 - Validate password strength by comparing inputs against a list of commonly used passwords.  
 
-#### **Account Lockout
+## **Account Lockout
 
 Policies** *(Price, 2024)*
 
@@ -74,7 +74,7 @@ Policies** *(Price, 2024)*
 - **Lockout Threshold:** Set a limit on failed login attempts before locking the account.  
 - **Reset Counter:** Define the time interval to reset failed login attempts.  
 
-#### **Session Management**
+## **Session Management**
 
 - Use frameworks like **PHP, .NET, or J2EE**, which offer robust, pre-built session management systems that are regularly updated to address vulnerabilities.  
 - Encrypt session ID exchanges using **TLS** to prevent interception.  
