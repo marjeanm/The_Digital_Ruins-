@@ -1,5 +1,7 @@
 # Introduction
 
+## Mitigating Web Application Security Risks: Addressing Broken Access Controls and Authentication Failures
+
 When building a website or application for customers, adopting a security-first mindset is essential. However, this can be challenging during development due to short development cycles, frequent updates, and the rapid evolution of technology. Security must remain a priority throughout the agile development process, as bad actors constantly seek to exploit vulnerabilities. These threats can result in data theft, misuse of systems, or disruptions to organizational operations.
 
 As websites and applications grow increasingly interactive and complex, security can sometimes take a back seat, leading to a variety of risks. As cybersecurity analysts, we must address not only the obvious threats but also ensure that access controls are well-defined, user rights are properly assigned, and regular audits are conducted. Additionally, user identification and non-repudiation processes must be clearly defined and implemented.
