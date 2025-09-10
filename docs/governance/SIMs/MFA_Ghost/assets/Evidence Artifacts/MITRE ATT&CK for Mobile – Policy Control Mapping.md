@@ -1,0 +1,13 @@
+# Policy Control Mapping
+
+This table maps common mobile adversary techniques from the MITRE ATT&CK framework to enforced policy controls under the organization's Zero Trust architecture.
+
+| MITRE Technique ID | Technique Name                                 | Mapped Policy Control                                                                                          |
+|--------------------|------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| T1476              | Deliver Malicious App via Authorized App Store | App protection enforcement, Authenticator lockdown, MAM/MEM device policy enforcement                          |
+| T1406              | Credential Access via Input Capture            | No self-service reauthentication; unlock requires admin intervention                                           |
+| T1435              | Remote Access Tools (RAT)                      | Service Desk-controlled account recovery only, outlined in AUP                                                 |
+| T1513              | Screen Capture                                 | App-level screen capture restriction enforced through device policy                                            |
+| T1410              | Application Layer Protocol Manipulation        | Conditional Access + centralized logging required for protocol misuse detection                                |
+| T1477              | Supply Chain Compromise                        | Signed AUP and EULA required, chain of command enforced for mobile app use                                     |
+| T1521              | Credential Dumping via Cloud Sync              | Enforced policy disables cloud sync of MFA tokens to prevent multi-token compromise via cloud account takeover |

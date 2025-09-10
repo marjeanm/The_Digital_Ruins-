@@ -6,13 +6,13 @@ theme:
   name: material
   language: en
   palette:
-    - scheme: slate
+    - scheme: slate  # dark mode by default
       primary: deep purple
       accent: cyan
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-    - scheme: default
+    - scheme: default  # light mode as optional
       primary: deep purple
       accent: cyan
       toggle:
@@ -39,49 +39,38 @@ extra:
     - icon: fontawesome/brands/blogger
       link: https://yourbloggerurl.com
 
-  announcement:
-    type: warning  # options: info, warning, note, tip
-    text: |
-      🚀 Preparing **WiCyS 2025 Talk Proposal** — Draft in progress!
-      [Learn more](https://www.wicys.org/)
+
 nav:
   - Home: index.md
-  - Governance SIMs:
-      - MFA Ghost:
-          - Overview: governance/SIMs/MFA_Ghost/README.md
-          - SIM Project: governance/SIMs/MFA_Ghost/assets/1. SIM Project.md
-          - Executive Risk Brief: governance/SIMs/MFA_Ghost/assets/Executive_Risk_Brief.md
-          - Lessons Learned: governance/SIMs/MFA_Ghost/assets/Lessons_Learned.md
-          - Timeline: governance/SIMs/MFA_Ghost/assets/Timeline.md
-      - Shiny Trust Breach:
-          - Overview: governance/SIMs/Shiny_Trust_Breach/README.md
-          - Executive Brief: governance/SIMs/Shiny_Trust_Breach/Executive_Brief.md
-          - Lessons Learned: governance/SIMs/Shiny_Trust_Breach/Lessons_Learned.md
-          - Timeline: governance/SIMs/Shiny_Trust_Breach/Timeline.md
-          - AI Risk Clause: governance/SIMs/Shiny_Trust_Breach/AI_Risk_Clause.md
-          - Contractor Onboarding SOP: governance/SIMs/Shiny_Trust_Breach/Contractor_Onboarding_SOP.md
-      - Trust Betrayal:
-          - Overview: governance/SIMs/Trust_Betrayal/README.md
-          - Executive Brief: governance/SIMs/Trust_Betrayal/Executive_Brief.md
-          - Lessons Learned: governance/SIMs/Trust_Betrayal/Lessons_Learned.md
-          - Timeline: governance/SIMs/Trust_Betrayal/Timeline.md
-      - Human Failure Vector: governance/SIMs/Human_Failure_Vector/README.md
-  - MFA:
-    - Conditional Access Policy: mfa/conditional-access-policy.md
-    - MFA Reference Pack: mfa/mfa-reference-pack.md
-    - MFA Maintenance : mfa/mfa-maintenance.md
-
   - About: about.md
 
-markdown_extensions:
-  - admonition
-  - attr_list
-  - md_in_html
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.highlight
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - Projects:
+      - Google / Salesforce Breach:
+          - Overview: governance/SIMs/Shiny_Trust_Breach/README.md
+          - Executive Brief: governance/SIMs/Shiny_Trust_Breach/Executive_Brief.md
+          - Timeline: governance/SIMs/Shiny_Trust_Breach/Timeline.md
+          - Lessons Learned: governance/SIMs/Shiny_Trust_Breach/Lessons_Learned.md
+          - AI Risk Clause: governance/SIMs/Shiny_Trust_Breach/AI_Risk_Clause.md
+          - Contractor Onboarding SOP: governance/SIMs/Shiny_Trust_Breach/Contractor_Onboarding_SOP.md
+
+      - SOC Escalation (Trust Betrayal):
+          - Overview: governance/SIMs/Trust_Betrayal/README.md
+          - Executive Brief: governance/SIMs/Trust_Betrayal/Executive_Brief.md
+          - Timeline: governance/SIMs/Trust_Betrayal/Timeline.md
+          - Lessons Learned: governance/SIMs/Trust_Betrayal/Lessons_Learned.md
+          - Governance Policy: governance/SIMs/Trust_Betrayal/Governance_Policy.md
+
+      - Contractor Risk (Human Failure Vector):
+          - Overview: governance/SIMs/Human_Failure_Vector/README.md
+          - Executive Brief: governance/SIMs/Human_Failure_Vector/Executive_Brief.md
+          - Timeline: governance/SIMs/Human_Failure_Vector/Timeline.md
+          - Lessons Learned: governance/SIMs/Human_Failure_Vector/Lessons_Learned.md
+
+      - MFA IAM Failure (MFA Ghost):
+          - Overview: governance/SIMs/MFA_Ghost/README.md
+          - Executive Risk Brief: governance/SIMs/MFA_Ghost/Executive_Risk_Brief.md
+
+  - Playbooks:
+      - Audit Log Playbook: playbooks/audit-log-playbook.md
+
+  
