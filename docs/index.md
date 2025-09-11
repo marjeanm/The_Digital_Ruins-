@@ -41,7 +41,7 @@ Your underground lab for governance sims, MFA rollouts, and real-world incident 
 
 ---
 
-## 🚀 Upcoming Talks
+## 🚀  Upcoming Talks
 
 !!! tip "WiCyS 2025 Proposal — In Progress"
     :material-presentation: **Building the Digital Ruins narrative into a governance SIM story.**  
