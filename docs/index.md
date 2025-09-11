@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-## **Digital Ruins — SIM
+## **Digital Ruins — SIM**
 
 Your underground lab for governance sims, MFA rollouts, and real-world incident playbooks.
 
