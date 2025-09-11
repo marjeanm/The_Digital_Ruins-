@@ -22,7 +22,7 @@ To evaluate and document risk exposure related to misconfigured or lingering MFA
 
 - Even after deleting and re-adding MFA tokens through Entra ID, the original authentication method remained in the background and re-synced based on device behavior.
 
-### Conditions That Caused Persistence:
+### Conditions That Caused Persistence
 
 - MFA token was backed up to cloud storage on primary phone
 
@@ -41,13 +41,13 @@ Residual authenticator tokens create hidden identity artifacts that:
 
 ## Tested Scenarios (Screenshots Documented)
 
-- ✅ Deleting MFA token from Entra ID UI
-- ✅ Re-adding from tablet device
+- Deleting MFA token from Entra ID UI
+- Re-adding from tablet device
 
-- ✅ Cloud backup toggled ON vs. OFF
-- ✅ Browser (Chrome regular & incognito)
-- ✅ Removal through Security Info page vs. Authenticator app
-- ✅ Security info visibility showing duplicate/mirrored tokens
+- Cloud backup toggled ON vs. OFF
+- Browser (Chrome regular & incognito)
+- Removal through Security Info page vs. Authenticator app
+- Security info visibility showing duplicate/mirrored tokens
 
 ## Recommendations
 
@@ -70,28 +70,19 @@ Residual authenticator tokens create hidden identity artifacts that:
     - Require signed AUP and tracking of MFA enrollment changes
 
 4. **Forensic Controls:**
-    
-    - Store deletion timestamps and device metadata
-        
-    - Flag duplicate tokens or backup restores for admin review
-        
+
+- Store deletion timestamps and device metadata
+- Flag duplicate tokens or backup restores for admin review
 
 ## Business Impact
 
 If unaddressed, lingering MFA token entries could result in:
 
 - Failed login audits
-    
 - Incorrect incident attribution
-    
 - Elevated risk of impersonation or lateral movement
-    
 - Noncompliance with SOX, HIPAA, or internal AUP
-    
 
 ## Conclusion
 
 MFA governance must account for hidden persistence mechanisms across Microsoft Authenticator deployments. This brief calls for an updated SOP, token hygiene enforcement, and executive visibility into Zero Trust enforcement gaps.
-
-
-

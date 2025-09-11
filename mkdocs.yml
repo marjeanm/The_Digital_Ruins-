@@ -1,5 +1,5 @@
 site_name: Digital Ruins SIM Portfolio
-site_url: https://thedigitalruins.com
+site_url: https://sim.thedigitalruins.com
 site_author: Marjean Mayo-Baker
 
 theme:
@@ -33,26 +33,24 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/YourGitHubUsername
+      link: https://github.com/marjeanm
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/YourLinkedInUsername
     - icon: fontawesome/brands/blogger
-      link: https://yourbloggerurl.com
+      link: https://blog.thedigitalruins.com
 
-  announcement:
-    type: warning  # options: info, warning, note, tip
-    text: |
-      🚀 Preparing **WiCyS 2025 Talk Proposal** — Draft in progress!
-      [Learn more](https://www.wicys.org/)
 nav:
   - Home: index.md
+  - About: about.md
+
   - Governance SIMs:
       - MFA Ghost:
           - Overview: governance/SIMs/MFA_Ghost/README.md
-          - SIM Project: governance/SIMs/MFA_Ghost/assets/1. SIM Project.md
-          - Executive Risk Brief: governance/SIMs/MFA_Ghost/assets/Executive_Risk_Brief.md
-          - Lessons Learned: governance/SIMs/MFA_Ghost/assets/Lessons_Learned.md
-          - Timeline: governance/SIMs/MFA_Ghost/assets/Timeline.md
+          - SIM Project: governance/SIMs/MFA_Ghost/SIM_Project.md
+          - Executive Risk Brief: governance/SIMs/MFA_Ghost/Executive_Risk_Brief.md
+          - Lessons Learned: governance/SIMs/MFA_Ghost/Lessons_Learned.md
+          - Timeline: governance/SIMs/MFA_Ghost/Timeline.md
+
       - Shiny Trust Breach:
           - Overview: governance/SIMs/Shiny_Trust_Breach/README.md
           - Executive Brief: governance/SIMs/Shiny_Trust_Breach/Executive_Brief.md
@@ -60,18 +58,24 @@ nav:
           - Timeline: governance/SIMs/Shiny_Trust_Breach/Timeline.md
           - AI Risk Clause: governance/SIMs/Shiny_Trust_Breach/AI_Risk_Clause.md
           - Contractor Onboarding SOP: governance/SIMs/Shiny_Trust_Breach/Contractor_Onboarding_SOP.md
+
       - Trust Betrayal:
           - Overview: governance/SIMs/Trust_Betrayal/README.md
           - Executive Brief: governance/SIMs/Trust_Betrayal/Executive_Brief.md
           - Lessons Learned: governance/SIMs/Trust_Betrayal/Lessons_Learned.md
           - Timeline: governance/SIMs/Trust_Betrayal/Timeline.md
-      - Human Failure Vector: governance/SIMs/Human_Failure_Vector/README.md
-  - MFA:
-    - Conditional Access Policy: mfa/conditional-access-policy.md
-    - MFA Reference Pack: mfa/mfa-reference-pack.md
-    - MFA Maintenance : mfa/mfa-maintenance.md
 
-  - About: about.md
+      - Human Failure Vector:
+          - Overview: governance/SIMs/Human_Failure_Vector/README.md
+
+  - MFA:
+      - Conditional Access Policy: mfa/conditional-access-policy.md
+      - MFA Reference Pack: mfa/mfa-reference-pack.md
+
+  - Playbooks:
+      - Audit Log Playbook: playbooks/audit-log-playbook.md
+
+
 
 markdown_extensions:
   - admonition

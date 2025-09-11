@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 Executive Summary  
+## Executive Summary  
 
 - **Zero Trust, Deny by Default** must be enforced on all trust relationships.  
 - **Daily education and human auditing of AI systems** is required to prevent blind reliance on automation.  
@@ -15,7 +15,7 @@
 
 ---
 
-## 🔍 Root Cause Analysis  
+## Root Cause Analysis  
 
 **Trigger:**  
 
@@ -41,7 +41,7 @@ without verifying anomalies.
 
 ---
 
-## 🛠 Technical Lessons  
+## Technical Lessons  
 
 - Brute-force activity on this scale requires **chain-of-custody escalation**, not checklist response.  
 - MFA enforcement must prioritize **phishing-resistant hardware or device-based biometrics**.  
@@ -49,7 +49,7 @@ without verifying anomalies.
 
 ---
 
-## 🧱 Cultural + Process Lessons  
+## Cultural + Process Lessons  
 
 - Contractors lacked escalation authority and proper sign-off guidance.  
 - Analysts defaulted to defensiveness instead of collaborative learning.  
@@ -58,7 +58,7 @@ without verifying anomalies.
 
 ---
 
-## 📜 Chain of Custody (Escalation Protocol)  
+## Chain of Custody (Escalation Protocol)  
 
 1. **Detection** – SOC flags >100 login attempts in <15 minutes.  
 2. **Validation** – Incident owner confirms anomaly with logs (sign-off required).  
@@ -68,7 +68,7 @@ without verifying anomalies.
 
 ---
 
-## 📌 Recommendations / Next Steps  
+## Recommendations / Next Steps  
 
 1. Establish **formal chain-of-custody sign-off** for brute-force events (>100 attempts).
 2. Implement **Trust Decay Policy** for SSO/vendor connections.  
