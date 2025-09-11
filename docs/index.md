@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-# **Digital Ruins — SIM Portfolio**
+## **Digital Ruins — SIM
 
 Your underground lab for governance sims, MFA rollouts, and real-world incident playbooks.
 
@@ -71,18 +71,21 @@ Your underground lab for governance sims, MFA rollouts, and real-world incident 
 
 <div class="grid cards" markdown>
 
--   :material-shield-lock: **Post-2024 Privacy — What Changed & What You Can Do**
+- :material-shield-lock: **Post-2024 Privacy — What Changed & What You Can Do**
     ---
+
     State laws snapshot, accountability gaps, and a 10-step action list.
     [:octicons-link-external-24: Read](https://blog.thedigitalruins.com/2025/09/analyzing-state-of-privacy-in-post-2024.html){ target=_blank rel="noopener" }
 
--   :material-account-voice: **Social Engineering — Tactics & Defenses**
+- :material-account-voice: **Social Engineering — Tactics & Defenses**
     ---
+
     Baiting, impersonation, SPIT/vishing, plus a 30-second verification playbook.
     [:octicons-link-external-24: Read](https://blog.thedigitalruins.com/2025/09/social-engineering-understanding-tactic.html){ target=_blank rel="noopener" }
 
--   :material-shield-key-outline: **Web App Security — BAC & Auth Failures**
+- :material-shield-key-outline: **Web App Security — BAC & Auth Failures**
     ---
+
     Deny-by-default, ABAC/ReBAC, passkeys/MFA, lockouts, and session hygiene.
     [:octicons-link-external-24: Read](https://blog.thedigitalruins.com/2025/09/mitigating-web-application-security.html){ target=_blank rel="noopener" }
 
