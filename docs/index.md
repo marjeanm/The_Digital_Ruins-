@@ -43,23 +43,15 @@ Your underground lab for governance sims, MFA rollouts, and real-world incident 
 
 ## :material-presentation: Past Talks & Speaking Events
 
-<div class="grid cards" markdown>
+**RAFA Academy Presentation** — Speaker on cybersecurity governance, AI hygiene, and security frameworks.
 
-- **RAFA Academy Presentation**
-    ---
-
-    ![Speaking Event](assets/images/speaking/speaking-event.jpg){ width="300" }
-
-    Speaker on cybersecurity governance, AI hygiene, and security frameworks.
-
-    [:material-download: Download Speaker Deck](assets/presentations/speaker.pptx){ .md-button .md-button--primary }
-
-</div>
+[:material-download: Download Speaker Deck](assets/presentations/speaker.pptx){ .md-button .md-button--primary }
 
 ### Event Gallery
 
-<div class="event-gallery" markdown>
+<div class="event-gallery">
 
+![RAFA Academy Speaking Event](assets/images/speaking/speaking-event.jpg)
 ![Conference Event](assets/images/speaking/conference-sentinelone.jpg)
 ![Speaking Presentation](assets/images/speaking/speaking-event.jpg)
 
@@ -67,33 +59,38 @@ Your underground lab for governance sims, MFA rollouts, and real-world incident 
 
 <style>
 .event-gallery {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-  justify-content: center;
   margin-top: 1rem;
 }
 
 .event-gallery img {
-  flex: 1 1 calc(33.333% - 1rem);
-  max-width: calc(33.333% - 1rem);
-  min-width: 250px;
-  height: auto;
+  width: 100%;
+  height: 250px;
   object-fit: cover;
   border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
 }
 
-@media (max-width: 768px) {
-  .event-gallery img {
-    flex: 1 1 calc(50% - 1rem);
-    max-width: calc(50% - 1rem);
+.event-gallery img:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 968px) {
+  .event-gallery {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 480px) {
+  .event-gallery {
+    grid-template-columns: 1fr;
+  }
+
   .event-gallery img {
-    flex: 1 1 100%;
-    max-width: 100%;
+    height: 200px;
   }
 }
 </style>
