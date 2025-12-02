@@ -53,7 +53,6 @@ Your underground lab for governance sims, MFA rollouts, and real-world incident 
 
 ![RAFA Academy Speaking Event](assets/images/speaking/speaking-event.jpg)
 ![Conference Event](assets/images/speaking/conference-sentinelone.jpg)
-![Speaking Presentation](assets/images/speaking/speaking-event.jpg)
 
 </div>
 
