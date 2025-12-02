@@ -84,6 +84,8 @@ Your underground lab for governance sims, MFA rollouts, and real-world incident 
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  height: 250px;
+  object-fit: cover;
   border-radius: 8px;
   transition: transform 0.3s ease;
 }
