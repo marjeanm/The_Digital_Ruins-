@@ -45,37 +45,58 @@ Your underground lab for governance sims, MFA rollouts, and real-world incident 
 
 <div class="grid cards" markdown>
 
-- **WiCyS Dallas 2025**
-    ---
-
-    ![WiCyS Badge](assets/images/speaking/wicys-badge.jpg){ width="300" }
-
-    Attended Women in CyberSecurity conference focusing on AI security and governance.
-
-- **Conference Presentations**
+- **RAFA Academy Presentation**
     ---
 
     ![Speaking Event](assets/images/speaking/speaking-event.jpg){ width="300" }
 
-    Active speaker on cybersecurity governance, AI hygiene, and security frameworks.
+    Speaker on cybersecurity governance, AI hygiene, and security frameworks.
 
-</div>
-
-<div style="text-align: center; margin-top: 20px;">
-
-[:material-download: Download Speaker Deck](assets/presentations/speaker.pptx){ .md-button .md-button--primary }
+    [:material-download: Download Speaker Deck](assets/presentations/speaker.pptx){ .md-button .md-button--primary }
 
 </div>
 
 ### Event Gallery
 
-<div class="grid" markdown style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+<div class="event-gallery" markdown>
 
-![TrustedSec WiCyS Event](assets/images/speaking/trustedsec-wicys.jpg){ width="100%" }
-![WiCyS Networking](assets/images/speaking/wicys-networking.jpg){ width="100%" }
-![Conference](assets/images/speaking/conference-sentinelone.jpg){ width="100%" }
+![Conference Event](assets/images/speaking/conference-sentinelone.jpg)
+![Speaking Presentation](assets/images/speaking/speaking-event.jpg)
 
 </div>
+
+<style>
+.event-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.event-gallery img {
+  flex: 1 1 calc(33.333% - 1rem);
+  max-width: calc(33.333% - 1rem);
+  min-width: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .event-gallery img {
+    flex: 1 1 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .event-gallery img {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+</style>
 
 ---
 
@@ -116,12 +137,10 @@ Your underground lab for governance sims, MFA rollouts, and real-world incident 
 
     Graduated with highest honors, demonstrating dedication to academic excellence and commitment to the field of cybersecurity.
 
-- :material-certificate-outline: **Master's Degree**
+- :material-certificate-outline: **Master's Degree (In Progress)**
     ---
 
-    ![Graduation with Family](assets/images/graduation/graduation-family.jpg){ width="100%" }
-
-    Advanced studies in cybersecurity and information systems, building the foundation for real-world governance and risk management.
+    Currently pursuing advanced studies in cybersecurity and information systems, building the foundation for real-world governance and risk management.
 
 </div>
 
