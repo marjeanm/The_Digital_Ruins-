@@ -41,33 +41,76 @@ Your underground lab for governance sims, MFA rollouts, and real-world incident 
 
 ---
 
-## 🚀  Upcoming Talks
+## :material-presentation: Past Talks
 
-!!! tip "WiCyS 2025 Proposal — In Progress"
-    :material-presentation: **Building the Digital Ruins narrative into a governance SIM story.**  
-    Draft in motion — updates will be posted here.  
-    [Learn more about WiCyS](https://www.wicys.org/){ target=_blank rel="noopener" }
+!!! success "Previous Presentations"
+    Explore past presentations on AI security, governance, and cyber hygiene.
+
+    <!-- PowerPoint embed will be added here -->
+    *PowerPoint presentation archive coming soon. Email for details.*
 
 ---
 
-## Blog
+## :material-account-voice: Speaking Engagements
+
+!!! note "Request a Talk"
+    Interested in having me speak at your event or organization?
+
+    **Topics I cover:**
+
+    - :material-shield-lock: **AI Hygiene & Security** — Practical controls for AI adoption
+    - :material-account-alert: **Governance & Risk** — Building audit-ready frameworks
+    - :material-security: **Incident Response** — Real-world playbooks and lessons learned
+
+    [:octicons-mail-24: Contact me](mailto:marjean@thedigitalruins.com){ .md-button .md-button--primary }
+
+---
+
+## :material-robot-outline: AI Chatbot Project
+
+!!! info "Custom AI Assistant"
+    I've developed a specialized chatbot for governance and security workflows.
+
+    Curious about the architecture, use cases, or deployment? **Drop me an email** — I'd love to discuss it.
+
+    [:octicons-mail-24: Ask me about it](mailto:marjean@thedigitalruins.com){ .md-button }
+
+---
+
+## :material-school-outline: Education & Honors
 
 <div class="grid cards" markdown>
 
-- :material-notebook-outline: **Accountability**
+- :material-trophy-outline: **Summa Cum Laude Graduate**
     ---
 
-    Personal governance and staying unshakeable in public.
-    [:octicons-link-external-24: Read on Blogger](https://blog.thedigitalruins.com/2025/09/cyber-accountability.html){ target=_blank rel="noopener" }
+    Graduated with highest honors, demonstrating dedication to academic excellence.
 
-- :material-shield-account: **Privacy Analysis**
+    <!-- Graduation photos will be embedded here upon request -->
+
+- :material-certificate-outline: **Master's Degree**
     ---
 
-    Real-world privacy tradeoffs and how to push back.
-    [:octicons-link-external-24: Read on Blogger](https://blog.thedigitalruins.com/2025/09/analyzing-state-of-privacy-in-post-2024.html)
+    Advanced studies in cybersecurity and information systems, building the foundation for real-world governance and risk management.
 
 </div>
-## Latest on the Blog
+
+---
+
+## :material-email-outline: Contact Me
+
+!!! tip "Get in Touch"
+    Whether you're interested in collaboration, speaking engagements, or just want to discuss cybersecurity and governance:
+
+    :fontawesome-solid-envelope: **marjean@thedigitalruins.com**
+
+    :fontawesome-brands-linkedin: [Connect on LinkedIn](https://linkedin.com/in/YourLinkedInUsername){ target=_blank rel="noopener" }
+
+    :fontawesome-brands-github: [View my work](https://github.com/marjeanm){ target=_blank rel="noopener" }
+
+---
+
+## :material-post-outline: Latest from the Blog
 
 <div class="grid cards" markdown>
 
@@ -92,4 +135,3 @@ Your underground lab for governance sims, MFA rollouts, and real-world incident 
 </div>
 
 [Visit the full blog](https://blog.thedigitalruins.com){ .md-button .md-button--primary target=_blank rel="noopener" }
-</div>
