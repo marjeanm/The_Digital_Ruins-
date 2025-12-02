@@ -53,15 +53,18 @@ Your underground lab for governance sims, MFA rollouts, and real-world incident 
   <div class="column">
     <img src="assets/images/speaking/speaking-event.jpg" alt="RAFA Academy Speaking Event">
     <img src="assets/images/speaking/wicys-badge.jpg" alt="WiCyS Badge">
+    <img src="assets/images/personal/20250404_134338.jpg" alt="Conference Group Selfie">
+    <img src="assets/images/personal/boston.jpg" alt="Boston">
   </div>
   <div class="column">
     <img src="assets/images/speaking/conference-sentinelone.jpg" alt="Conference Event">
     <img src="assets/images/graduation/graduation-family.jpg" alt="Graduation with Family">
+    <img src="assets/images/personal/20251123_134321.jpg" alt="Event Photo">
   </div>
   <div class="column">
     <img src="assets/images/speaking/trustedsec-wicys.jpg" alt="TrustedSec WiCyS">
     <img src="assets/images/speaking/wicys-networking.jpg" alt="WiCyS Networking">
-    <img src="assets/images/personal/boston.jpg" alt="Boston">
+    <img src="assets/images/personal/20251130_192737.jpg" alt="Digital Ruins Chatbot">
   </div>
 </div>
 
