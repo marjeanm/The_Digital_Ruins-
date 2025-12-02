@@ -53,6 +53,11 @@ Your underground lab for governance sims, MFA rollouts, and real-world incident 
 
 ![RAFA Academy Speaking Event](assets/images/speaking/speaking-event.jpg)
 ![Conference Event](assets/images/speaking/conference-sentinelone.jpg)
+![TrustedSec WiCyS](assets/images/speaking/trustedsec-wicys.jpg)
+![WiCyS Networking](assets/images/speaking/wicys-networking.jpg)
+![WiCyS Badge](assets/images/speaking/wicys-badge.jpg)
+![Graduation with Family](assets/images/graduation/graduation-family.jpg)
+![Boston](assets/images/personal/boston.jpg)
 
 </div>
 
