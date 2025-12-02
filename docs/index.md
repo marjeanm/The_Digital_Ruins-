@@ -49,7 +49,7 @@ Your underground lab for governance sims, MFA rollouts, and real-world incident 
 
 ### Event Gallery
 
-<div class="event-gallery">
+<div class="event-gallery" markdown>
 
 ![RAFA Academy Speaking Event](assets/images/speaking/speaking-event.jpg)
 ![Conference Event](assets/images/speaking/conference-sentinelone.jpg)
