@@ -41,13 +41,41 @@ Your underground lab for governance sims, MFA rollouts, and real-world incident 
 
 ---
 
-## :material-presentation: Past Talks
+## :material-presentation: Past Talks & Speaking Events
 
-!!! success "Previous Presentations"
-    Explore past presentations on AI security, governance, and cyber hygiene.
+<div class="grid cards" markdown>
 
-    <!-- PowerPoint embed will be added here -->
-    *PowerPoint presentation archive coming soon. Email for details.*
+- **WiCyS Dallas 2025**
+    ---
+
+    ![WiCyS Badge](assets/images/speaking/wicys-badge.jpg){ width="300" }
+
+    Attended Women in CyberSecurity conference focusing on AI security and governance.
+
+- **Conference Presentations**
+    ---
+
+    ![Speaking Event](assets/images/speaking/speaking-event.jpg){ width="300" }
+
+    Active speaker on cybersecurity governance, AI hygiene, and security frameworks.
+
+</div>
+
+<div style="text-align: center; margin-top: 20px;">
+
+[:material-download: Download Speaker Deck](assets/presentations/speaker.pptx){ .md-button .md-button--primary }
+
+</div>
+
+### Event Gallery
+
+<div class="grid" markdown style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+
+![TrustedSec WiCyS Event](assets/images/speaking/trustedsec-wicys.jpg){ width="100%" }
+![WiCyS Networking](assets/images/speaking/wicys-networking.jpg){ width="100%" }
+![Conference](assets/images/speaking/conference-sentinelone.jpg){ width="100%" }
+
+</div>
 
 ---
 
@@ -84,12 +112,14 @@ Your underground lab for governance sims, MFA rollouts, and real-world incident 
 - :material-trophy-outline: **Summa Cum Laude Graduate**
     ---
 
-    Graduated with highest honors, demonstrating dedication to academic excellence.
+    ![Graduation Ceremony](assets/images/graduation/graduation-ceremony.jpg){ width="100%" }
 
-    <!-- Graduation photos will be embedded here upon request -->
+    Graduated with highest honors, demonstrating dedication to academic excellence and commitment to the field of cybersecurity.
 
 - :material-certificate-outline: **Master's Degree**
     ---
+
+    ![Graduation with Family](assets/images/graduation/graduation-family.jpg){ width="100%" }
 
     Advanced studies in cybersecurity and information systems, building the foundation for real-world governance and risk management.
 
