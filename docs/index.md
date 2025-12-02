@@ -49,52 +49,63 @@ Your underground lab for governance sims, MFA rollouts, and real-world incident 
 
 ### Event Gallery
 
-<div class="event-gallery" markdown>
-
-![RAFA Academy Speaking Event](assets/images/speaking/speaking-event.jpg)
-![Conference Event](assets/images/speaking/conference-sentinelone.jpg)
-![TrustedSec WiCyS](assets/images/speaking/trustedsec-wicys.jpg)
-![WiCyS Networking](assets/images/speaking/wicys-networking.jpg)
-![WiCyS Badge](assets/images/speaking/wicys-badge.jpg)
-![Graduation with Family](assets/images/graduation/graduation-family.jpg)
-![Boston](assets/images/personal/boston.jpg)
-
+<div class="row">
+  <div class="column">
+    <img src="assets/images/speaking/speaking-event.jpg" alt="RAFA Academy Speaking Event">
+    <img src="assets/images/speaking/wicys-badge.jpg" alt="WiCyS Badge">
+  </div>
+  <div class="column">
+    <img src="assets/images/speaking/conference-sentinelone.jpg" alt="Conference Event">
+    <img src="assets/images/graduation/graduation-family.jpg" alt="Graduation with Family">
+  </div>
+  <div class="column">
+    <img src="assets/images/speaking/trustedsec-wicys.jpg" alt="TrustedSec WiCyS">
+    <img src="assets/images/speaking/wicys-networking.jpg" alt="WiCyS Networking">
+    <img src="assets/images/personal/boston.jpg" alt="Boston">
+  </div>
 </div>
 
 <style>
-.event-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin-top: 1rem;
+/* Container for the image grid */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 
-.event-gallery img {
+/* Create three equal columns that sit next to each other */
+.column {
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
   width: 100%;
-  height: 250px;
-  object-fit: cover;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
 }
 
-.event-gallery img:hover {
-  transform: scale(1.05);
+.column img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-@media (max-width: 968px) {
-  .event-gallery {
-    grid-template-columns: repeat(2, 1fr);
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
   }
 }
 
-@media (max-width: 480px) {
-  .event-gallery {
-    grid-template-columns: 1fr;
-  }
-
-  .event-gallery img {
-    height: 200px;
+/* Responsive layout - makes a one column layout instead of two columns */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
   }
 }
 </style>
