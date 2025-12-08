@@ -1,0 +1,3 @@
+# Digital Ruins - MkDocs Dependencies
+mkdocs>=1.5.0
+mkdocs-material>=9.4.0

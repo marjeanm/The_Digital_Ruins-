@@ -75,7 +75,9 @@ nav:
   - Playbooks:
       - Audit Log Playbook: playbooks/audit-log-playbook.md
 
-
+  - CVE Tracking:
+      - Overview: cve-tracking/index.md
+      - Dependencies: cve-tracking/dependencies.md
 
 markdown_extensions:
   - admonition
