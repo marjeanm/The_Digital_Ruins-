@@ -39,6 +39,9 @@ extra:
     - icon: fontawesome/brands/blogger
       link: https://blog.thedigitalruins.com
 
+extra_css:
+  - stylesheets/digital-ruins.css
+
 nav:
   - Home: index.md
   - About: about.md
