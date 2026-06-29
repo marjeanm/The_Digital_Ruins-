@@ -4,200 +4,265 @@ hide:
   - toc
 ---
 
-## **Digital Ruins -  SIM**
+<article class="dr-home">
+  <section class="dr-hero" aria-labelledby="digital-ruins-title">
+    <div class="dr-hero-copy">
+      <p class="dr-kicker">Governance SIM Portfolio // Cybersecurity // AI Risk</p>
+      <h1 id="digital-ruins-title" class="dr-title">Digital <span class="dr-title-mark">Ruins</span></h1>
+      <p class="dr-hero-deck">
+        A premium cybersecurity portfolio built for the messy place where governance, risk, identity, AI hygiene, and human behavior collide. Brutal vibe. Controlled execution.
+      </p>
+      <div class="dr-hero-actions" aria-label="Primary homepage actions">
+        <a class="dr-button dr-button--primary" href="governance/SIMs/MFA_Ghost/README.md">Open SIM Archive</a>
+        <a class="dr-button" href="about.md">Read the Operator File</a>
+      </div>
+    </div>
 
-Your underground lab for governance sims, MFA rollouts, and real-world incident playbooks.
+    <aside class="dr-terminal-panel" aria-label="Digital Ruins terminal status log">
+      <div class="dr-terminal-header">
+        <span class="dr-terminal-label">/var/log/digital-ruins</span>
+        <span class="dr-terminal-status">LIVE</span>
+      </div>
+      <ol class="dr-terminal-lines">
+        <li>
+          <span class="dr-terminal-time">00:01</span>
+          <span class="dr-terminal-line"><strong>BOOT</strong> portfolio environment initialized</span>
+        </li>
+        <li>
+          <span class="dr-terminal-time">00:04</span>
+          <span class="dr-terminal-line"><strong>SCAN</strong> governance sims mapped to audit evidence</span>
+        </li>
+        <li>
+          <span class="dr-terminal-time">00:08</span>
+          <span class="dr-terminal-line"><strong>TRACE</strong> identity, vendor, and AI risk paths linked</span>
+        </li>
+        <li>
+          <span class="dr-terminal-time">00:13</span>
+          <span class="dr-terminal-line"><strong>MODE</strong> readable, defensible, human-centered security</span>
+        </li>
+        <li>
+          <span class="dr-terminal-time">00:21</span>
+          <span class="dr-terminal-line"><strong>STATUS</strong> signal remains greater than noise</span>
+        </li>
+      </ol>
+    </aside>
+  </section>
 
-> **Signal > Noise.**  
-> Cyberpunk spine, audit-ready polish.
+  <section class="dr-stats" aria-label="Digital Ruins portfolio signals">
+    <div class="dr-stat">
+      <span class="dr-stat-number">04</span>
+      <span class="dr-stat-label">Governance SIMs</span>
+      <p>Scenario-based artifacts with executive briefs, lessons learned, timelines, and control logic.</p>
+    </div>
+    <div class="dr-stat">
+      <span class="dr-stat-number">AI</span>
+      <span class="dr-stat-label">Risk Lab</span>
+      <p>Practical AI hygiene and governance patterns without turning people into policy-shaped furniture.</p>
+    </div>
+    <div class="dr-stat">
+      <span class="dr-stat-number">MFA</span>
+      <span class="dr-stat-label">Identity Focus</span>
+      <p>Conditional Access, rollout strategy, adoption risk, and business-readable security controls.</p>
+    </div>
+    <div class="dr-stat">
+      <span class="dr-stat-number">GRC</span>
+      <span class="dr-stat-label">Audit Ready</span>
+      <p>Built for clarity: what happened, why it mattered, what control failed, and what changes next.</p>
+    </div>
+  </section>
 
-<div class="grid cards" markdown>
+  <section class="dr-section" aria-labelledby="sim-heading">
+    <div class="dr-section-header">
+      <div>
+        <p class="dr-section-meta">01 // Governance Simulation Cards</p>
+        <h2 id="sim-heading" class="dr-section-title">Incident stories with receipts.</h2>
+      </div>
+      <p class="dr-section-summary">
+        These SIMs translate messy cybersecurity incidents into governance decisions, risk language, and audit-ready artifacts. Less theater. More defensible execution.
+      </p>
+    </div>
 
-- :material-shield-key-outline: **MFA Ghost**
-    ---
+    <div class="dr-sim-grid">
+      <a class="dr-sim-card" href="governance/SIMs/MFA_Ghost/README.md" aria-label="Open MFA Ghost governance SIM">
+        <span class="dr-sim-index">01</span>
+        <h3>MFA Ghost</h3>
+        <p>Entra ID rollout planning, Conditional Access, risk tiering, adoption friction, and the quiet danger of controls nobody actually understands.</p>
+        <span class="dr-card-meta">Open SIM →</span>
+      </a>
 
-    Entra ID rollout, phased by risk tier with Conditional Access and governance.
-    [:octicons-arrow-right-24: Open](governance/SIMs/MFA_Ghost/README.md)
+      <a class="dr-sim-card" href="governance/SIMs/Shiny_Trust_Breach/README.md" aria-label="Open Shiny Trust Breach governance SIM">
+        <span class="dr-sim-index">02</span>
+        <h3>Shiny Trust Breach</h3>
+        <p>Vendor trust, breach timelines, executive response, AI risk language, and contractor onboarding controls that should have existed yesterday.</p>
+        <span class="dr-card-meta">Open SIM →</span>
+      </a>
 
-- :material-alert-decagram-outline: **Shiny Trust Breach**
-    ---
+      <a class="dr-sim-card" href="governance/SIMs/Trust_Betrayal/README.md" aria-label="Open Trust Betrayal governance SIM">
+        <span class="dr-sim-index">03</span>
+        <h3>Trust Betrayal</h3>
+        <p>SOC escalation, internal trust breakdowns, corrective action, lessons learned, and the accountability gap between policy and reality.</p>
+        <span class="dr-card-meta">Open SIM →</span>
+      </a>
 
-    Google/Salesforce breach simulation: timeline, exec brief, AI risk clause, onboarding SOP.
-    [:octicons-arrow-right-24: Open](governance/SIMs/Shiny_Trust_Breach/README.md)
+      <a class="dr-sim-card" href="governance/SIMs/Human_Failure_Vector/README.md" aria-label="Open Human Failure Vector governance SIM">
+        <span class="dr-sim-index">04</span>
+        <h3>Human Failure Vector</h3>
+        <p>People-layer risk without the lazy blaming. Behavioral design, training debt, process gaps, and controls built for actual humans.</p>
+        <span class="dr-card-meta">Open SIM →</span>
+      </a>
+    </div>
+  </section>
 
-- :material-account-alert-outline: **Trust Betrayal (SOC Escalation)**
-    ---
+  <section class="dr-section" aria-labelledby="speaking-heading">
+    <div class="dr-section-header">
+      <div>
+        <p class="dr-section-meta">02 // Speaking</p>
+        <h2 id="speaking-heading" class="dr-section-title">Governance that people can actually hear.</h2>
+      </div>
+      <p class="dr-section-summary">
+        Talks and workshops focused on cybersecurity governance, AI hygiene, identity risk, and making security frameworks useful outside of a dusty PDF dungeon.
+      </p>
+    </div>
 
-    Escalation pathing, lessons learned, and corrective controls.
-    [:octicons-arrow-right-24: Open](governance/SIMs/Trust_Betrayal/README.md)
+    <div class="dr-panel-grid">
+      <div class="dr-panel-card dr-panel-card--wide">
+        <p class="dr-card-meta">Featured talk</p>
+        <h3>RAFA Academy Presentation</h3>
+        <p>Cybersecurity governance, AI hygiene, and security frameworks translated into practical language for people who need to make decisions, not collect buzzwords.</p>
+        <div class="dr-section-actions">
+          <a class="dr-button dr-button--primary" href="assets/presentations/speaker.pptx">Download Speaker Deck</a>
+          <a class="dr-button" href="mailto:marjean@thedigitalruins.com?subject=Speaking%20Inquiry%20-%20Digital%20Ruins">Request a Talk</a>
+        </div>
+      </div>
 
-- :material-account-question-outline: **Human Failure Vector**
-    ---
+      <div class="dr-panel-card">
+        <p class="dr-card-meta">Talk tracks</p>
+        <h3>What I Cover</h3>
+        <p>AI hygiene, governance and risk, incident response lessons, MFA rollout friction, and the human side of technical control failure.</p>
+      </div>
+    </div>
+  </section>
 
-    People-layer risks and mitigation patterns.
-    [:octicons-arrow-right-24: Open](governance/SIMs/Human_Failure_Vector/README.md)
+  <section class="dr-section" aria-labelledby="ai-lab-heading">
+    <div class="dr-section-header">
+      <div>
+        <p class="dr-section-meta">03 // AI Lab</p>
+        <h2 id="ai-lab-heading" class="dr-section-title">AI, but with adult supervision.</h2>
+      </div>
+      <p class="dr-section-summary">
+        The AI Lab explores where generative systems fit into governance workflows, what needs guardrails, and where human judgment still needs to stay in the chair.
+      </p>
+    </div>
 
-</div>
+    <div class="dr-panel-grid">
+      <div class="dr-panel-card">
+        <p class="dr-card-meta">Prototype</p>
+        <h3>Governance Assistant</h3>
+        <p>A custom assistant concept for policy drafting, control mapping, risk language, and security workflow support.</p>
+      </div>
+      <div class="dr-panel-card">
+        <p class="dr-card-meta">Focus</p>
+        <h3>AI Hygiene</h3>
+        <p>Practical boundaries for AI use: data handling, review checkpoints, accountability, and the blessed art of not pasting secrets into random boxes.</p>
+      </div>
+      <div class="dr-panel-card">
+        <p class="dr-card-meta">Output</p>
+        <h3>Risk Language</h3>
+        <p>Plain-language risk translation for leaders, analysts, students, and stakeholders who need the real answer without the fog machine.</p>
+      </div>
+    </div>
+  </section>
 
----
+  <section class="dr-section" aria-labelledby="education-heading">
+    <div class="dr-section-header">
+      <div>
+        <p class="dr-section-meta">04 // Education & Honors</p>
+        <h2 id="education-heading" class="dr-section-title">Receipts, not vibes.</h2>
+      </div>
+      <p class="dr-section-summary">
+        A cybersecurity academic path grounded in governance, risk, identity, and documentation that can survive scrutiny.
+      </p>
+    </div>
 
-## :material-presentation: Past Talks & Speaking Events
+    <div class="dr-panel-card">
+      <ul class="dr-education-list">
+        <li>
+          <span class="dr-education-date">Completed</span>
+          <span><strong>Cybersecurity degree with highest honors</strong> — academic foundation across security operations, risk, and technical analysis.</span>
+        </li>
+        <li>
+          <span class="dr-education-date">Current</span>
+          <span><strong>Master's studies in cybersecurity</strong> — continued focus on governance, information systems, security controls, and real-world risk decisions.</span>
+        </li>
+        <li>
+          <span class="dr-education-date">Leadership</span>
+          <span><strong>Community and security leadership</strong> — building spaces for cybersecurity learning, mentorship, and practical growth.</span>
+        </li>
+      </ul>
+    </div>
+  </section>
 
-**RAFA Academy Presentation** — Speaker on cybersecurity governance, AI hygiene, and security frameworks.
+  <section class="dr-section" aria-labelledby="blog-heading">
+    <div class="dr-section-header">
+      <div>
+        <p class="dr-section-meta">05 // Blog Preview</p>
+        <h2 id="blog-heading" class="dr-section-title">Field notes from the ruins.</h2>
+      </div>
+      <p class="dr-section-summary">
+        Writing on privacy, social engineering, authentication failures, governance gaps, and practical security moves that do not require a magic wand or a seven-figure tooling budget.
+      </p>
+    </div>
 
-[:material-download: Download Speaker Deck](assets/presentations/speaker.pptx){ .md-button .md-button--primary }
+    <div class="dr-blog-grid">
+      <article class="dr-blog-card">
+        <p class="dr-card-meta">Privacy</p>
+        <h3>Post-2024 Privacy</h3>
+        <p>State laws snapshot, accountability gaps, and a practical action list for people trying to protect data in the real world.</p>
+        <a class="dr-button" href="https://blog.thedigitalruins.com/2025/09/analyzing-state-of-privacy-in-post-2024.html" target="_blank" rel="noopener">Read Post</a>
+      </article>
 
-### Event Gallery
+      <article class="dr-blog-card">
+        <p class="dr-card-meta">Human Risk</p>
+        <h3>Social Engineering</h3>
+        <p>Baiting, impersonation, SPIT, vishing, and a short verification playbook for when the vibes are off.</p>
+        <a class="dr-button" href="https://blog.thedigitalruins.com/2025/09/social-engineering-understanding-tactic.html" target="_blank" rel="noopener">Read Post</a>
+      </article>
 
-<div class="row">
-  <div class="column">
-    <img src="assets/images/speaking/speaking-event.jpg" alt="RAFA Academy Speaking Event">
-    <img src="assets/images/speaking/wicys-badge.jpg" alt="WiCyS Badge">
-    <img src="assets/images/personal/20250404_134338.jpg" alt="Conference Group Selfie">
-  </div>
-  <div class="column">
-    <img src="assets/images/speaking/conference-sentinelone.jpg" alt="Conference Event">
-    <img src="assets/images/graduation/graduation-family.jpg" alt="Graduation with Family">
-    <img src="assets/images/personal/20251123_134321.jpg" alt="Event Photo">
-    <img src="assets/images/personal/boston.jpg" alt="Boston">
-  </div>
-  <div class="column">
-    <img src="assets/images/speaking/trustedsec-wicys.jpg" alt="TrustedSec WiCyS">
-    <img src="assets/images/speaking/wicys-networking.jpg" alt="WiCyS Networking">
-    <img src="assets/images/personal/20251130_192737.jpg" alt="Digital Ruins Chatbot">
-  </div>
-</div>
+      <article class="dr-blog-card">
+        <p class="dr-card-meta">Web Security</p>
+        <h3>BAC & Auth Failures</h3>
+        <p>Deny-by-default, ABAC/ReBAC, passkeys, MFA, lockouts, and session hygiene for web app security.</p>
+        <a class="dr-button" href="https://blog.thedigitalruins.com/2025/09/mitigating-web-application-security.html" target="_blank" rel="noopener">Read Post</a>
+      </article>
+    </div>
 
-<style>
-/* Container for the image grid */
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
+    <div class="dr-section-actions">
+      <a class="dr-button dr-button--primary" href="https://blog.thedigitalruins.com" target="_blank" rel="noopener">Visit Full Blog</a>
+    </div>
+  </section>
 
-/* Create three equal columns that sit next to each other */
-.column {
-  flex: 33.33%;
-  max-width: 33.33%;
-  padding: 0 4px;
-}
+  <section class="dr-section" aria-labelledby="contact-heading">
+    <div class="dr-section-header">
+      <div>
+        <p class="dr-section-meta">06 // Contact</p>
+        <h2 id="contact-heading" class="dr-section-title">Send the signal.</h2>
+      </div>
+      <p class="dr-section-summary">
+        Collaboration, speaking, governance projects, AI hygiene discussions, and cybersecurity work that needs clarity instead of theater.
+      </p>
+    </div>
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-}
-
-.column img:hover {
-  transform: scale(1.02);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes a one column layout instead of two columns */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-</style>
-
----
-
-## :material-account-voice: Speaking Engagements
-
-!!! note "Request a Talk"
-    Interested in having me speak at your event or organization?
-
-    **Topics I cover:**
-
-    - :material-shield-lock: **AI Hygiene & Security** — Practical controls for AI adoption
-    - :material-account-alert: **Governance & Risk** — Building audit-ready frameworks
-    - :material-security: **Incident Response** — Real-world playbooks and lessons learned
-
-    [:octicons-mail-24: Contact me](mailto:marjean@thedigitalruins.com){ .md-button .md-button--primary }
-
----
-
-## :material-robot-outline: AI Chatbot Project
-
-!!! info "Custom AI Assistant"
-    I've developed a specialized chatbot for governance and security workflows.
-
-    Curious about the architecture, use cases, or deployment? **Drop me an email** — I'd love to discuss it.
-
-    [:octicons-mail-24: Ask me about it](mailto:marjean@thedigitalruins.com){ .md-button }
-
----
-
-## :material-school-outline: Education & Honors
-
-<div class="grid cards" markdown>
-
-- :material-trophy-outline: **Summa Cum Laude Graduate**
-    ---
-
-    ![Graduation Ceremony](assets/images/graduation/graduation-ceremony.jpg){ width="100%" }
-
-    Graduated with highest honors, demonstrating dedication to academic excellence and commitment to the field of cybersecurity.
-
-- :material-certificate-outline: **Master's Degree (In Progress)**
-    ---
-
-    Currently pursuing advanced studies in cybersecurity and information systems, building the foundation for real-world governance and risk management.
-
-</div>
-
----
-
-## :material-email-outline: Contact Me
-
-!!! tip "Get in Touch"
-    Whether you're interested in collaboration, speaking engagements, or just want to discuss cybersecurity and governance:
-
-    :fontawesome-solid-envelope: **marjean@thedigitalruins.com**
-
-    :fontawesome-brands-linkedin: [Connect on LinkedIn](https://linkedin.com/in/YourLinkedInUsername){ target=_blank rel="noopener" }
-
-    :fontawesome-brands-github: [View my work](https://github.com/marjeanm){ target=_blank rel="noopener" }
-
----
-
-## :material-post-outline: Latest from the Blog
-
-<div class="grid cards" markdown>
-
-- :material-shield-lock: **Post-2024 Privacy — What Changed & What You Can Do**
-    ---
-
-    State laws snapshot, accountability gaps, and a 10-step action list.
-    [:octicons-link-external-24: Read](https://blog.thedigitalruins.com/2025/09/analyzing-state-of-privacy-in-post-2024.html){ target=_blank rel="noopener" }
-
-- :material-account-voice: **Social Engineering — Tactics & Defenses**
-    ---
-
-    Baiting, impersonation, SPIT/vishing, plus a 30-second verification playbook.
-    [:octicons-link-external-24: Read](https://blog.thedigitalruins.com/2025/09/social-engineering-understanding-tactic.html){ target=_blank rel="noopener" }
-
-- :material-shield-key-outline: **Web App Security — BAC & Auth Failures**
-    ---
-
-    Deny-by-default, ABAC/ReBAC, passkeys/MFA, lockouts, and session hygiene.
-    [:octicons-link-external-24: Read](https://blog.thedigitalruins.com/2025/09/mitigating-web-application-security.html){ target=_blank rel="noopener" }
-
-</div>
-
-[Visit the full blog](https://blog.thedigitalruins.com){ .md-button .md-button--primary target=_blank rel="noopener" }
+    <div class="dr-contact-grid">
+      <div class="dr-contact-card">
+        <p class="dr-contact-label">Primary channel</p>
+        <p><strong>Email</strong> is the cleanest path for inquiries, collaboration, speaking requests, and project conversations.</p>
+        <a class="dr-contact-link" href="mailto:marjean@thedigitalruins.com">marjean@thedigitalruins.com</a>
+      </div>
+      <div class="dr-contact-card">
+        <p class="dr-contact-label">Repository trail</p>
+        <p>Review the work, the structure, and the artifacts. The receipts are part of the point.</p>
+        <a class="dr-contact-link" href="https://github.com/marjeanm" target="_blank" rel="noopener">github.com/marjeanm</a>
+      </div>
+    </div>
+  </section>
+</article>
