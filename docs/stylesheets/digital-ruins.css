@@ -583,16 +583,19 @@ button:focus-visible {
 }
 
 .dr-brand-mark {
-  display: grid;
-  width: 2.65rem;
-  height: 2.65rem;
-  place-items: center;
-  border: 1px solid var(--dr-gold);
-  color: var(--dr-gold);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.92rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
+  overflow: hidden;
+  background: #151515;
+}
+
+.dr-brand-mark img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.45);
 }
 
 .dr-brand-copy {
@@ -877,8 +880,8 @@ body:has(.dr-hero--editorial) {
   }
 
   .dr-brand-mark {
-    width: 2.25rem;
-    height: 2.25rem;
+    width: 2.85rem;
+    height: 2.85rem;
   }
 
   .dr-hero--editorial {
@@ -1346,26 +1349,10 @@ body:has(.dr-hero--editorial) {
   margin: 0;
 }
 
-/* Keep Material's mobile drawer behavior; narrow only the desktop primary rail. */
+/* Keep Material's mobile drawer behavior; remove the redundant desktop rail. */
 @media screen and (min-width: 76.25em) {
   .md-sidebar--primary {
-    width: fit-content;
-    min-width: 9.5rem;
-    max-width: 12rem;
-  }
-
-  .md-sidebar--primary .md-sidebar__scrollwrap {
-    margin: 0;
-  }
-
-  .md-sidebar--primary .md-sidebar__inner {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-  }
-
-  .md-sidebar--primary .md-nav__link {
-    width: max-content;
-    max-width: 10.75rem;
+    display: none;
   }
 }
 
@@ -1449,6 +1436,86 @@ body:has(.dr-hero--editorial) {
   .dr-button {
     width: 100%;
   }
+}
+
+/* The light palette is an editorial ivory-paper counterpart to the dark room. */
+body[data-md-color-scheme="default"] {
+  --dr-black: #f4efe4;
+  --dr-charcoal: #ece4d5;
+  --dr-panel: #fffaf0;
+  --dr-panel-strong: #e7decd;
+  --dr-border: #b8aa92;
+  --dr-text: #171813;
+  --dr-muted: #53574f;
+  --dr-dim: #70746c;
+  --dr-ink: #171813;
+  --dr-shadow: rgba(57, 43, 22, 0.14);
+  --dr-ivory: #171813;
+  --md-default-bg-color: #f4efe4;
+  --md-default-fg-color: #171813;
+  --md-default-fg-color--light: #53574f;
+  --md-default-fg-color--lighter: #70746c;
+  background:
+    radial-gradient(circle at 15% 0%, rgba(216, 173, 91, 0.14), transparent 34rem),
+    linear-gradient(180deg, #f8f3e9 0%, #f1eadc 52%, #f8f3e9 100%);
+  color: var(--dr-text);
+}
+
+body[data-md-color-scheme="default"] .dr-site-header,
+body[data-md-color-scheme="default"] .md-footer {
+  --dr-text: #f0ede6;
+  --dr-muted: #a7aaa5;
+  --dr-ivory: #f0ede6;
+  color: #f0ede6;
+}
+
+body[data-md-color-scheme="default"] :is(
+  .dr-hero:not(.dr-hero--editorial),
+  .dr-terminal-panel,
+  .dr-stat,
+  .dr-sim-card,
+  .dr-panel-card,
+  .dr-blog-card,
+  .dr-contact-card,
+  .dr-portfolio-card,
+  .dr-case-header,
+  .dr-jump-nav,
+  .dr-artifact-access,
+  .md-typeset table:not([class])
+) {
+  background: rgba(255, 250, 240, 0.88);
+  color: var(--dr-text);
+  box-shadow: 0 1.1rem 2.8rem rgba(57, 43, 22, 0.08);
+}
+
+body[data-md-color-scheme="default"] :is(
+  .md-typeset .dr-title,
+  .md-typeset .dr-title--portfolio,
+  .md-typeset .dr-section-title,
+  .md-typeset .dr-case-header h1,
+  .md-typeset .dr-case-header--wide-title h1,
+  .md-typeset .dr-case-study > h2,
+  .dr-editorial-title,
+  .dr-card-title,
+  .dr-sim-card h3,
+  .dr-panel-card h3,
+  .dr-blog-card h3
+) {
+  color: var(--dr-text);
+}
+
+body[data-md-color-scheme="default"] :is(
+  .dr-button,
+  .dr-editorial-button
+) {
+  color: var(--dr-text) !important;
+}
+
+body[data-md-color-scheme="default"] :is(
+  .dr-button--primary,
+  .dr-editorial-button--primary
+) {
+  color: #080a09 !important;
 }
 
 @media print {
