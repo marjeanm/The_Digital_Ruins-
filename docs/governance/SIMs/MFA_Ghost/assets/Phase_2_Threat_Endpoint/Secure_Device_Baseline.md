@@ -71,8 +71,8 @@ User remediation will occur through Service Desk or automated compliance workflo
 
 ## Related Policies
 
-- [MFA Governance Policy](../MFA_Governance/README.md)
-- [Executive Risk Brief](../Executive_Risk_Brief/README.md)
+- [MFA Governance Project](../../SIM_Project.md)
+- [Executive Risk Brief](../../Executive_Risk_Brief.md)
 
 ---
 *Maintained by Governance

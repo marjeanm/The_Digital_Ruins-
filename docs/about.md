@@ -1,48 +1,66 @@
-# About
+---
+title: About
+---
 
-## Who I Am
+<article class="dr-case-study dr-about" markdown>
+  <header class="dr-case-header">
+    <div>
+      <p class="dr-kicker">Operator File // Marjean Mayo-Baker</p>
+      <h1>Governance that survives contact with reality.</h1>
+      <p class="dr-case-deck">I work where cybersecurity operations, identity, risk, audit evidence, and human behavior collide—and turn that mess into controls people can understand and use.</p>
+    </div>
+    <div class="dr-case-status"><span class="dr-status dr-status--available">Open to Opportunity</span><span>GRC // IAM // Cybersecurity Governance</span></div>
+  </header>
 
-I’m **Marjean Mayo-Baker**, a cybersecurity practitioner and builder of **FORGE SIMs** — realistic governance and risk simulations that turn incidents into actionable controls.  
-Through my work under the **Digital Ruins** banner, I focus on:
+## What I Do
 
-- Identity & Access Management (EntraID / Active Directory)
+I’m **Marjean Mayo-Baker**, a cybersecurity practitioner and builder of realistic governance simulations. Under the **Digital Ruins** banner, I use simulated and academic environments to show the work behind sound security decisions: defining risk, gathering evidence, mapping controls, writing policy, planning remediation, and communicating with the people accountable for the outcome.
 
-- Zero Trust enforcement
-- GRC and SOX-aligned governance
-- Simulation-driven security education
-- AI risk framing and contractor access controls
+My focus includes:
 
-## What I Deliver
+- Governance, risk, compliance, and audit readiness
+- Identity and access management, including Entra ID and Active Directory
+- Least privilege, MFA, Conditional Access, and Zero Trust
+- Vendor, contractor, and fourth-party risk
+- AI governance and data-handling boundaries
+- Executive-ready documentation and technical-to-business translation
 
-I specialize in producing **executive-ready artifacts**:
+## How I Work
 
-- **Executive Briefs** → plain-language incident framing for leadership
+The strongest control is not the one with the longest policy. It is the one that has a clear owner, fits the operating environment, produces usable evidence, and can be explained when something goes wrong.
 
-- **Controls Mapping** → direct ties to NIST SP 800-53, SOX, and Zero Trust
+My portfolio emphasizes four habits:
 
-- **Policies & SOPs** → enforceable governance that scales
+1. **Name the risk clearly.** Connect cause, event, and business impact.
+2. **Make the evidence explicit.** A control claim should be demonstrable.
+3. **Design for humans.** Friction, incentives, and operating reality matter.
+4. **Close the decision loop.** Findings need ownership, priority, and follow-through.
 
-- **Playbooks** → repeatable workflows for audit and investigation
+## Professional Snapshot
 
-Each artifact is designed to be **provable, reusable, and culture-aware**.
+**Technology Center Analyst Lead — PNC Bank**
 
-## Career Snapshot
+Identity and access enforcement, endpoint triage, incident escalation, and operational awareness of vendor-risk issues.
 
-- **Technology Center Analyst Lead** — PNC Bank  
+**SIM Architect — Digital Ruins**
 
-  Identity & access enforcement, endpoint triage, incident escalation, vendor risk issues
+Created scenario-based governance work including MFA Ghost, Shiny Trust Breach, Trust Betrayal, and Human Failure Vector.
 
-- **SIM Architect** — Digital Ruins
-  Created SIM portfolio (Trust Betrayal, Shiny Trust Breach, Human Failure Vector, MFA Rollout)
+## Work Products
+
+- Enterprise risk registers and treatment plans
+- Executive risk and incident briefs
+- Control mappings and evidence plans
+- Policies, standards, and operating procedures
+- Audit and investigation playbooks
+- Lessons-learned and remediation records
 
 ## Education
 
-- M.S Cybersecurity (2027, southern New Hampshire University)
-
-- B.S. Cybersecurity (2025, Southern New Hampshire University)
-
+- M.S. Cybersecurity, Southern New Hampshire University — expected 2027
+- B.S. Cybersecurity, Southern New Hampshire University — 2025
 - Google Cybersecurity Professional Certificate
+- Advanced labs in IAM, Zero Trust, governance, and automation
 
-- Multiple advanced labs in IAM, Zero Trust, automation
-
-*© Digital Ruins — Practical governance, no fluff.*
+<div class="dr-section-actions"><a class="dr-button dr-button--primary" href="../portfolio/">View Portfolio</a><a class="dr-button" href="../governance/">Explore Governance SIMs</a><a class="dr-button" href="mailto:marjean@thedigitalruins.com">Contact Me</a></div>
+</article>

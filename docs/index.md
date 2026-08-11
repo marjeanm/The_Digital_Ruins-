@@ -5,54 +5,29 @@ hide:
 ---
 
 <article class="dr-home">
-  <section class="dr-hero" aria-labelledby="digital-ruins-title">
-    <div class="dr-hero-copy">
-      <p class="dr-kicker">Governance SIM Portfolio // Cybersecurity // AI Risk</p>
-      <h1 id="digital-ruins-title" class="dr-title">Digital <span class="dr-title-mark">Ruins</span></h1>
-      <p class="dr-hero-deck">
-        A premium cybersecurity portfolio built for the messy place where governance, risk, identity, AI hygiene, and human behavior collide. Brutal vibe. Controlled execution.
+  <section class="dr-hero dr-hero--editorial" aria-labelledby="digital-ruins-title">
+    <div class="dr-editorial-copy">
+      <p class="dr-editorial-kicker">Governance that survives contact with reality</p>
+      <h1 id="digital-ruins-title" class="dr-editorial-title"><span>Security decisions.</span><em>Made defensible.</em></h1>
+      <p class="dr-editorial-deck">
+        Cybersecurity governance, risk, identity, audit, and AI work translated into evidence leaders can understand—and decisions teams can defend.
       </p>
-      <div class="dr-hero-actions" aria-label="Primary homepage actions">
-        <a class="dr-button dr-button--primary" href="governance/SIMs/MFA_Ghost/README.md">Open SIM Archive</a>
-        <a class="dr-button" href="about.md">Read the Operator File</a>
+      <div class="dr-editorial-actions" aria-label="Primary homepage actions">
+        <a class="dr-editorial-button dr-editorial-button--primary" href="portfolio/">Explore the Work <span aria-hidden="true">↗</span></a>
+        <a class="dr-editorial-button" href="about/">Meet Marjean</a>
       </div>
     </div>
 
-    <aside class="dr-terminal-panel" aria-label="Digital Ruins terminal status log">
-      <div class="dr-terminal-header">
-        <span class="dr-terminal-label">/var/log/digital-ruins</span>
-        <span class="dr-terminal-status">LIVE</span>
-      </div>
-      <ol class="dr-terminal-lines">
-        <li>
-          <span class="dr-terminal-time">00:01</span>
-          <span class="dr-terminal-line"><strong>BOOT</strong> portfolio environment initialized</span>
-        </li>
-        <li>
-          <span class="dr-terminal-time">00:04</span>
-          <span class="dr-terminal-line"><strong>SCAN</strong> governance sims mapped to audit evidence</span>
-        </li>
-        <li>
-          <span class="dr-terminal-time">00:08</span>
-          <span class="dr-terminal-line"><strong>TRACE</strong> identity, vendor, and AI risk paths linked</span>
-        </li>
-        <li>
-          <span class="dr-terminal-time">00:13</span>
-          <span class="dr-terminal-line"><strong>MODE</strong> readable, defensible, human-centered security</span>
-        </li>
-        <li>
-          <span class="dr-terminal-time">00:21</span>
-          <span class="dr-terminal-line"><strong>STATUS</strong> signal remains greater than noise</span>
-        </li>
-      </ol>
-    </aside>
+    <div class="dr-editorial-signal" aria-hidden="true">
+      <span>Risk</span><span>Evidence</span><span>Decision</span><span>Control</span><span>Trust</span>
+    </div>
   </section>
 
   <section class="dr-stats" aria-label="Digital Ruins portfolio signals">
     <div class="dr-stat">
       <span class="dr-stat-number">04</span>
-      <span class="dr-stat-label">Governance SIMs</span>
-      <p>Scenario-based artifacts with executive briefs, lessons learned, timelines, and control logic.</p>
+      <span class="dr-stat-label">Featured Case Studies</span>
+      <p>Professional work across risk management, audit readiness, access governance, and compliance.</p>
     </div>
     <div class="dr-stat">
       <span class="dr-stat-number">AI</span>
@@ -71,10 +46,37 @@ hide:
     </div>
   </section>
 
+  <section class="dr-section" aria-labelledby="portfolio-heading">
+    <div class="dr-section-header">
+      <div>
+        <p class="dr-section-meta">01 // Professional Portfolio</p>
+        <h2 id="portfolio-heading" class="dr-section-title">Risk work with a decision attached.</h2>
+      </div>
+      <p class="dr-section-summary">
+        Start with the flagship Enterprise Risk Register, then explore audit, identity, compliance, governance, AI, and technical-security capabilities.
+      </p>
+    </div>
+
+    <div class="dr-panel-grid">
+      <div class="dr-panel-card dr-panel-card--wide">
+        <div class="dr-card-topline"><span class="dr-status dr-status--available">Available</span><p class="dr-card-meta">Flagship // Enterprise Risk</p></div>
+        <h3>Enterprise Risk Register</h3>
+        <p>Probability-impact scoring, response planning, vendor and fourth-party exposure, AI/SaaS governance, and audit-ready documentation in one recruiter-friendly case study.</p>
+        <a class="dr-button dr-button--primary" href="portfolio/enterprise-risk-register/">View Case Study</a>
+      </div>
+      <div class="dr-panel-card">
+        <p class="dr-card-meta">Explore the full set</p>
+        <h3>GRC &amp; Cybersecurity Portfolio</h3>
+        <p>Browse featured work by professional capability and see clearly labeled Available, In Development, and Planned artifacts.</p>
+        <a class="dr-button" href="portfolio/">Open Portfolio</a>
+      </div>
+    </div>
+  </section>
+
   <section class="dr-section" aria-labelledby="sim-heading">
     <div class="dr-section-header">
       <div>
-        <p class="dr-section-meta">01 // Governance Simulation Cards</p>
+        <p class="dr-section-meta">02 // Governance Simulation Cards</p>
         <h2 id="sim-heading" class="dr-section-title">Incident stories with receipts.</h2>
       </div>
       <p class="dr-section-summary">
@@ -83,32 +85,32 @@ hide:
     </div>
 
     <div class="dr-sim-grid">
-      <a class="dr-sim-card" href="governance/SIMs/MFA_Ghost/README.md" aria-label="Open MFA Ghost governance SIM">
+      <a class="dr-sim-card" href="governance/SIMs/MFA_Ghost/SIM_Project/" aria-label="Open MFA Ghost governance SIM">
         <span class="dr-sim-index">01</span>
         <h3>MFA Ghost</h3>
         <p>Entra ID rollout planning, Conditional Access, risk tiering, adoption friction, and the quiet danger of controls nobody actually understands.</p>
         <span class="dr-card-meta">Open SIM →</span>
       </a>
 
-      <a class="dr-sim-card" href="governance/SIMs/Shiny_Trust_Breach/README.md" aria-label="Open Shiny Trust Breach governance SIM">
+      <a class="dr-sim-card" href="governance/SIMs/Shiny_Trust_Breach/" aria-label="Open Shiny Trust Breach governance SIM">
         <span class="dr-sim-index">02</span>
         <h3>Shiny Trust Breach</h3>
         <p>Vendor trust, breach timelines, executive response, AI risk language, and contractor onboarding controls that should have existed yesterday.</p>
         <span class="dr-card-meta">Open SIM →</span>
       </a>
 
-      <a class="dr-sim-card" href="governance/SIMs/Trust_Betrayal/README.md" aria-label="Open Trust Betrayal governance SIM">
+      <a class="dr-sim-card" href="governance/SIMs/Trust_Betrayal/" aria-label="Open Trust Betrayal governance SIM">
         <span class="dr-sim-index">03</span>
         <h3>Trust Betrayal</h3>
         <p>SOC escalation, internal trust breakdowns, corrective action, lessons learned, and the accountability gap between policy and reality.</p>
         <span class="dr-card-meta">Open SIM →</span>
       </a>
 
-      <a class="dr-sim-card" href="governance/SIMs/Human_Failure_Vector/README.md" aria-label="Open Human Failure Vector governance SIM">
+      <a class="dr-sim-card" href="sims/human-failure-vector/" aria-label="Preview Human Failure Vector governance SIM">
         <span class="dr-sim-index">04</span>
         <h3>Human Failure Vector</h3>
         <p>People-layer risk without the lazy blaming. Behavioral design, training debt, process gaps, and controls built for actual humans.</p>
-        <span class="dr-card-meta">Open SIM →</span>
+        <span class="dr-card-meta">In Development // Preview SIM →</span>
       </a>
     </div>
   </section>
