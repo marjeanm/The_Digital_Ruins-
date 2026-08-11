@@ -1,0 +1,46 @@
+{% import "partials/tabs-item.html" as item with context %}
+<header class="md-header dr-site-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header') }}">
+    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" class="dr-brand" aria-label="{{ config.site_name }} home">
+      <span class="dr-brand-mark" aria-hidden="true">DR</span>
+      <span class="dr-brand-copy">
+        <strong>The Digital Ruins</strong>
+        <small>Governance · Risk · Security</small>
+      </span>
+    </a>
+
+    <label class="md-header__button md-icon dr-menu-button" for="__drawer" aria-label="Open navigation">
+      {% set icon = config.theme.icon.menu or "material/menu" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </label>
+
+    <nav class="md-tabs dr-header-tabs" aria-label="{{ lang.t('tabs') }}" data-md-component="tabs">
+      <ul class="md-tabs__list">
+        {% for nav_item in nav.items %}
+          {{ item.render(nav_item) }}
+        {% endfor %}
+      </ul>
+    </nav>
+
+    <a class="dr-header-cta" href="{{ 'portfolio/' | url }}">Explore Work <span aria-hidden="true">↗</span></a>
+
+    {% if config.theme.palette %}
+      {% if not config.theme.palette is mapping %}
+        {% include "partials/palette.html" %}
+      {% endif %}
+    {% endif %}
+    {% if not config.theme.palette is mapping %}
+      {% include "partials/javascripts/palette.html" %}
+    {% endif %}
+    {% if "material/search" in config.plugins %}
+      {% set search = config.plugins["material/search"] | attr("config") %}
+      {% if search.enabled %}
+        <label class="md-header__button md-icon" for="__search" aria-label="Search">
+          {% set icon = config.theme.icon.search or "material/magnify" %}
+          {% include ".icons/" ~ icon ~ ".svg" %}
+        </label>
+        {% include "partials/search.html" %}
+      {% endif %}
+    {% endif %}
+  </nav>
+</header>

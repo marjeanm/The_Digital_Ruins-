@@ -1,9 +1,10 @@
-site_name: Digital Ruins SIM Portfolio
+site_name: The Digital Ruins
 site_url: https://thedigitalruins.com
 site_author: Marjean Mayo-Baker
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
   palette:
     - scheme: slate
@@ -23,6 +24,7 @@ theme:
     code: JetBrains Mono
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
     - toc.integrate
@@ -45,41 +47,17 @@ extra_css:
 nav:
   - Home: index.md
   - About: about.md
-
-  - Governance SIMs:
-      - MFA Ghost:
-          - Overview: governance/SIMs/MFA_Ghost/README.md
-          - SIM Project: governance/SIMs/MFA_Ghost/SIM_Project.md
-          - Executive Risk Brief: governance/SIMs/MFA_Ghost/Executive_Risk_Brief.md
-          - Lessons Learned: governance/SIMs/MFA_Ghost/Lessons_Learned.md
-          - Timeline: governance/SIMs/MFA_Ghost/Timeline.md
-
-      - Shiny Trust Breach:
-          - Overview: governance/SIMs/Shiny_Trust_Breach/README.md
-          - Executive Brief: governance/SIMs/Shiny_Trust_Breach/Executive_Brief.md
-          - Lessons Learned: governance/SIMs/Shiny_Trust_Breach/Lessons_Learned.md
-          - Timeline: governance/SIMs/Shiny_Trust_Breach/Timeline.md
-          - AI Risk Clause: governance/SIMs/Shiny_Trust_Breach/AI_Risk_Clause.md
-          - Contractor Onboarding SOP: governance/SIMs/Shiny_Trust_Breach/Contractor_Onboarding_SOP.md
-
-      - Trust Betrayal:
-          - Overview: governance/SIMs/Trust_Betrayal/README.md
-          - Executive Brief: governance/SIMs/Trust_Betrayal/Executive_Brief.md
-          - Lessons Learned: governance/SIMs/Trust_Betrayal/Lessons_Learned.md
-          - Timeline: governance/SIMs/Trust_Betrayal/Timeline.md
-
-      - Human Failure Vector:
-          - Overview: governance/SIMs/Human_Failure_Vector/README.md
-
-  - MFA:
-      - Conditional Access Policy: mfa/conditional-access-policy.md
-      - MFA Reference Pack: mfa/mfa-reference-pack.md
-
+  - Portfolio:
+      - Portfolio Overview: portfolio/index.md
+      - Enterprise Risk Register: portfolio/enterprise-risk-register.md
+      - Cybersecurity Audit & Assessment Playbook: portfolio/cybersecurity-audit-assessment-playbook.md
+      - Access Governance Assessment: portfolio/access-governance-assessment.md
+      - Compliance Assessment: portfolio/compliance-assessment.md
+  - Governance SIMs: governance/index.md
   - Playbooks:
+      - Playbook Overview: playbooks/index.md
       - Audit Log Playbook: playbooks/audit-log-playbook.md
-      - GRC Portfolio Showcase: playbooks/grc-portfolio-showcase.md
-
-
+  - Blog: Blog/index.md
 
 markdown_extensions:
   - admonition
@@ -91,5 +69,5 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.highlight
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
