@@ -43,9 +43,13 @@ extra:
 
 extra_css:
   - stylesheets/digital-ruins.css
+  - stylesheets/cyberpunk.css
 
 nav:
   - Home: index.md
+  - Cyberpunk:
+      - The Ruins: cyberpunk/index.md
+      - Project Archive: cyberpunk/projects.md
   - About: about.md
   - Portfolio:
       - Portfolio Overview: portfolio/index.md
