@@ -41,7 +41,7 @@ hide:
         <p class="dr-section-meta">01 // Featured Work</p>
         <h2 id="featured-work-title" class="dr-section-title">Evidence of the work.</h2>
       </div>
-      <p class="dr-section-summary">Four recruiter-friendly case studies organized by professional capability—not course or assignment name.</p>
+      <p class="dr-section-summary">Four featured GRC case studies, plus two projects from the separate Cyberpunk archive.</p>
     </div>
 
     <div class="dr-feature-grid">
@@ -83,6 +83,25 @@ hide:
         <p class="dr-skill-label">Skills demonstrated</p>
         <ul class="dr-tag-list"><li>HIPAA safeguards</li><li>Evidence mapping</li><li>Access governance</li><li>Third-party oversight</li></ul>
         <a class="dr-button dr-button--primary" href="compliance-assessment/">View Case Study</a>
+      </article>
+      <article class="dr-feature-card">
+        <div class="dr-card-topline"><span class="dr-status dr-status--available">Cyberpunk archive</span><span class="dr-card-meta">Human Risk</span></div>
+        <span class="dr-sim-index">05</span>
+        <h3>Human Risk Factors</h3>
+        <p>Human risk factors project published in the separate Cyberpunk project archive. Follow the original work for the full scope and supporting details.</p>
+        <p class="dr-skill-label">Project location</p>
+        <ul class="dr-tag-list"><li>Human risk</li><li>Cyberpunk project archive</li></ul>
+        <a class="dr-button" href="../cyberpunk/projects/">Explore Original Project</a>
+      </article>
+
+      <article class="dr-feature-card">
+        <div class="dr-card-topline"><span class="dr-status dr-status--available">Cyberpunk archive</span><span class="dr-card-meta">Data Analytics</span></div>
+        <span class="dr-sim-index">06</span>
+        <h3>Data Analytics</h3>
+        <p>Data analytics project published in the separate Cyberpunk project archive. Follow the original work for the methodology and supporting details.</p>
+        <p class="dr-skill-label">Project location</p>
+        <ul class="dr-tag-list"><li>Data analytics</li><li>Cyberpunk project archive</li></ul>
+        <a class="dr-button" href="../cyberpunk/projects/">Explore Original Project</a>
       </article>
     </div>
   </section>
